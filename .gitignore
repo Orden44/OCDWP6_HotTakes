@@ -1,0 +1,5 @@
+node_modules
+/Web-Developer-P6/node_modules
+/backend/node_modules
+/backend/*.env
+/backend/images
