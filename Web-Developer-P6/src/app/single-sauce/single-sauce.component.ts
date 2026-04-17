@@ -6,9 +6,10 @@ import { AuthService } from '../services/auth.service';
 import { catchError, EMPTY, map, Observable, of, switchMap, take, tap } from 'rxjs';
 
 @Component({
-  selector: 'app-single-sauce',
-  templateUrl: './single-sauce.component.html',
-  styleUrls: ['./single-sauce.component.scss']
+    selector: 'app-single-sauce',
+    templateUrl: './single-sauce.component.html',
+    styleUrls: ['./single-sauce.component.scss'],
+    standalone: false
 })
 export class SingleSauceComponent implements OnInit {
 

@@ -5,9 +5,10 @@ import { Sauce } from '../models/Sauce.model';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-sauce-list',
-  templateUrl: './sauce-list.component.html',
-  styleUrls: ['./sauce-list.component.scss']
+    selector: 'app-sauce-list',
+    templateUrl: './sauce-list.component.html',
+    styleUrls: ['./sauce-list.component.scss'],
+    standalone: false
 })
 export class SauceListComponent implements OnInit {
 
